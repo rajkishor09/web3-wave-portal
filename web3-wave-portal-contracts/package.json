@@ -1,0 +1,29 @@
+{
+  "name": "web3-wave-portal-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "accounts": "npx hardhat accounts",
+    "run": "npx hardhat run scripts/run.ts",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "goerli": "npx hardhat run scripts/deploy.ts --network goerli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

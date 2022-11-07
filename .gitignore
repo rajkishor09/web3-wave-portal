@@ -1,0 +1,12 @@
+web3-wave-portal-contracts/node_modules
+web3-wave-portal-ui/node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+
